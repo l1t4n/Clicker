@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lvlBg {
+    width: 100%;
+    height: auto;
+    background-image: url("./images/lvl1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    
+}
