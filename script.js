@@ -15,7 +15,7 @@ let enemy = {
 // тут должен быть звук выстрела при клике ↙
 document.addEventListener('click', () => {
     const audio = new Audio();
-    audio.src = '**hit.mp3**';
+    audio.src = "./";
     audio.volume = 0.05;
     audio.play
 })
