@@ -5,11 +5,46 @@
 }
 
 #lvlBg {
-    width: 100%;
-    height: auto;
-    background-image: url("./images/lvl1.jpg");
+    display: flex;
+    
+    height: 100vh;
+    background-image: url("./images/bg-img/lvl1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: initial;
-    
+}
+
+#enemyImg {
+    position: absolute;
+    width: 280px;
+    left: 40%;
+    top: 30%;
+    user-select: none;
+}
+
+#playerUi {
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    top: 55%;
+    user-select: none;
+}
+
+.hp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 87%;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 50px;
+    width: 250px;
+    height: 75px;
+    padding: 0px 15px;
+}
+
+#hp , .hp-title{
+    font-size: 60px;
+    color: red;
+    font-family: arial;
+    user-select: none;
 }
