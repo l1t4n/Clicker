@@ -2,31 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Clicker</title>
+    <title>Clicker done</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
 </head>
 <body>
-
-    <div id="lvlBg">
-
-            <img id='enemyImg' src="./images/enemy-img/enemy1.png" alt="enemy-img">
-            <img id='playerUi' src="./images/FP-images/firsPersonUi-unscoped.png    " alt="player-ui">
-            
-            
-            <div class="hp-wrapper">
-                <span class="hp-title">HP:</span>
-                <span id="hp">100</span>
-            </div>
-
-            <div class="hp-wrapper">
-                <span class="hp-title">Potion:</span>
-                <span id="hp">5</span>
-            </div>
-
-
+    <div id="splash-screen">
+        <h1>Kill Monster</h1>
+        <button id="play-button">Play</button>
+    </div>
+    <div class="game-container" style="display: none;">
+        <div class="location1" style="display: none;">
+            <div class="monster-container"></div>
+        </div>
+        <div class="location2" style="display: none;">
+            <div class="monster-container"></div>
+        </div>
+        <div class="location3" style="display: none;">
+            <div class="monster-container"></div>
+        </div>
+        <div class="player-container"></div>
+        <div id="player-wins">Player Wins: 0</div>
+        <div id="game-over">Game over!</div>
     </div> 
-    
 </body>
 </html>
